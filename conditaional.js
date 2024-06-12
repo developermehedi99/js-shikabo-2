@@ -6,3 +6,13 @@ if (myBujet > kacchi) {
 } else {
   console.log("kichu khowya hobe na");
 }
+
+const income = 30000;
+const isCar = true;
+const home = "rajshahi";
+
+if ((income > 20000 && isCar) || home === "dhaka") {
+  console.log("ami tomake biye korbo");
+} else {
+  console.log("ami lovi tai biye hobe na");
+}
