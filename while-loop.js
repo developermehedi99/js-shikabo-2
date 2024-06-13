@@ -21,6 +21,12 @@ while (price > 1) {
 const frind = ["mim", "nurmoni", "usaila", "liza", "tisa", "farzana", "others"];
 let num = 0;
 while (num < frind.length) {
-  console.log(frind[num]);
+  // console.log(frind[num]);
   num++;
+}
+
+let coun = 1;
+while (coun <= 30) {
+  console.log(coun);
+  coun += 2;
 }
